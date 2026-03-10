@@ -38,6 +38,7 @@
                                 <opts>
                                     <opt>-Dfile.encoding=UTF-8</opt>
                                     <opt>-Dstdout.encoding=UTF-8</opt>
+                                    <opt>-Dsun.stdout.encoding=UTF-8</opt>
                                 </opts>
                             </jre>
                         </configuration>
