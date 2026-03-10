@@ -41,6 +41,10 @@
               <jar>${project.build.directory}/maven1-1.0-SNAPSHOT.jar</jar>
               <jre>
                 <minVersion>1.8.0</minVersion>
+                <opts>
+                  <opt>-Dfile.encoding=UTF-8</opt>
+                  <opt>-Dstdout.encoding=UTF-8</opt>
+                </opts>
               </jre>
             </configuration>
           </execution>

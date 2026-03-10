@@ -8,6 +8,7 @@ import java.io.InputStream;
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
+import java.util.Scanner;
 import org.yaml.snakeyaml.Yaml;
 /**
  *
@@ -29,5 +30,8 @@ public class Main {
             System.out.println("Имя:"+person.getName()+"  "+"Адрес:"+person.getAdress());
             System.out.println();
         }
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter для выхода");
+        scanner.nextLine();
     }
 }
